@@ -34,3 +34,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbttutorial:
     +materialized: table
+    #marts:
+      #+materialized: view
